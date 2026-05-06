@@ -3,6 +3,8 @@ cat > /Users/Amanda/risklens/README.md << 'ENDOFFILE'
 
 > See through the APY. Find your true return on Solana.
 
+![Vera Dashboard](frontend/public/home.jpg)
+
 ## What is Vera?
 
 Vera is an AI-powered risk-adjusted yield optimizer for Solana DeFi. Most users chase the highest APY without understanding the risk behind it. Vera changes that.
