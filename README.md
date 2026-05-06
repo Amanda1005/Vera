@@ -38,18 +38,20 @@ One-click routing through Jupiter aggregator to execute your optimized allocatio
 
 ## Project Structure
 
+```
 vera/
 ├── backend/
-│   ├── main.py          # FastAPI backend, risk scoring engine, AI analysis
-│   └── .env             # API keys (not committed)
+│   ├── main.py
+│   └── .env
 ├── frontend/
 │   ├── app/
-│   │   ├── page.tsx         # Main risk dashboard
+│   │   ├── page.tsx
 │   │   └── optimize/
-│   │       └── page.tsx     # Optimize + AI analysis + stress test
+│   │       └── page.tsx
 │   └── public/
 │       └── vera-logo.png
 └── README.md
+```
 
 ## Tech Stack
 
@@ -78,7 +80,9 @@ pip install fastapi uvicorn requests python-dotenv
 
 Create a `.env` file in the `backend` folder:
 
+```
 ANTHROPIC_API_KEY=your_api_key_here
+```
 
 Start the backend:
 
