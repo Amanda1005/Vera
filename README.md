@@ -1,6 +1,8 @@
 # Vera — AI-Powered DeFi Risk Advisor
 
-> See through the APY. Find your true return on Solana.
+>  See through the APY. Find your true return on Solana.
+
+![Vera Dashboard](frontend/public/home.jpg)
 
 ## What is Vera?
 
@@ -12,7 +14,9 @@ Input your capital and risk tolerance, and Vera pulls real-time data from Kamino
 
 **Risk-Adjusted Scoring** — Cross-protocol yield comparison using TVL stability and APY volatility as risk factors.
 
-**AI Risk Analysis** — Three-point breakdown: why this allocation, key risks, and one actionable recommendation.
+**AI Risk Analysis**
+
+![AI Risk Analysis](frontend/public/optimize.ai.jpg) — Three-point breakdown: why this allocation, key risks, and one actionable recommendation.
 
 **Worst-Case Scenario Analysis** — Simulate performance under Luna Collapse (2022), FTX Collapse (2022), and Fed Rate Hike Shock (2023).
 
