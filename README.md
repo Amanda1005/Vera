@@ -3,7 +3,7 @@ cat > /Users/Amanda/risklens/README.md << 'ENDOFFILE'
 
 > See through the APY. Find your true return on Solana.
 
-![Vera Dashboard](frontend/public/home.jpg)
+![Vera Dashboard](frontend/public/home.jpg?raw=true)
 
 ## What is Vera?
 
