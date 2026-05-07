@@ -33,7 +33,7 @@ interface OptimizeResult {
   recommendations: Recommendation[];
   summary: Summary;
   stressTests: Record<string, StressTest>;
-  aiAnalysis: string;
+  aiAnalysis: string | { why: string; risk: string; action: string };
 }
 
 export default function Optimize() {
