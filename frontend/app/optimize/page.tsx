@@ -74,11 +74,8 @@ export default function Optimize() {
 
       <div className="max-w-4xl mx-auto px-8 pt-12 pb-8">
         <div className="mb-10">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            Optimize Your{" "}
-            <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-              Allocation
-            </span>
+          <h1 className="text-4xl font-bold mb-2 bg-clip-text text-transparent" style={{backgroundImage: "radial-gradient(circle, #3B82F6, #9333EA, #00D4AA)", WebkitBackgroundClip: "text", backgroundClip: "text"}}>
+            Optimize Your Allocation
           </h1>
           <p className="text-gray-500">
             Get the best risk-adjusted allocation and see your worst-case scenario before you commit.
@@ -133,7 +130,7 @@ export default function Optimize() {
               </div>
               <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
                 <p className="text-gray-400 text-xs mb-1 uppercase tracking-wider">Effective APY</p>
-                <p className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">{result.summary.effectiveApy}%</p>
+                <p className="text-2xl font-bold bg-clip-text text-transparent">{result.summary.effectiveApy}%</p>
               </div>
               <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
                 <p className="text-gray-400 text-xs mb-1 uppercase tracking-wider">Protocol fee (0.1%)</p>

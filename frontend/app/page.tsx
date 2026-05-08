@@ -57,11 +57,8 @@ export default function Home() {
 
       <div className="max-w-5xl mx-auto px-8 pt-16 pb-8">
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold text-gray-900 mb-4 leading-tight">
-            See through the APY,{" "}
-            <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-              find your true return
-            </span>
+          <h1 className="text-5xl font-bold mb-4 leading-tight bg-clip-text text-transparent" style={{backgroundImage: "radial-gradient(circle, #3B82F6, #9333EA, #00D4AA)", WebkitBackgroundClip: "text", backgroundClip: "text"}}>
+            See through the APY, find your true return
           </h1>
           <p className="text-gray-500 text-lg max-w-xl mx-auto">
             Risk-adjusted yield comparison across Solana DeFi protocols. Know your real return before you invest.
