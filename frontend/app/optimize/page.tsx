@@ -45,7 +45,7 @@ export default function Optimize() {
   const run = async () => {
     setLoading(true);
     const res = await fetch(
-      `http://127.0.0.1:8000/api/ai-analysis?amount=${amount}&risk_profile=${riskProfile}`
+      `https://vera-backend-pmyu.onrender.com/api/ai-analysis?amount=${amount}&risk_profile=${riskProfile}`
     );
     const data = await res.json();
     setResult(data);

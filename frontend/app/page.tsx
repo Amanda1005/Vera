@@ -23,7 +23,7 @@ export default function Home() {
   const [risk, setRisk] = useState("all");
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/protocols")
+    fetch("https://vera-backend-pmyu.onrender.com/api/protocols")
       .then((r) => r.json())
       .then((res) => {
         setData(res.data);
