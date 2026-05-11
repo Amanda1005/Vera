@@ -130,11 +130,11 @@ export default function Optimize() {
               </div>
               <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
                 <p className="text-gray-400 text-xs mb-1 uppercase tracking-wider">Effective APY</p>
-                <p className="text-2xl font-bold bg-clip-text text-transparent">{result.summary.effectiveApy}%</p>
+                <p className="text-2xl font-bold text-red-500">{result.summary.effectiveApy}%</p>
               </div>
               <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
                 <p className="text-gray-400 text-xs mb-1 uppercase tracking-wider">Protocol fee (0.1%)</p>
-                <p className="text-2xl font-bold text-gray-400">${result.summary.protocolFee}</p>
+                <p className="text-2xl font-bold text-gray-900">${result.summary.protocolFee}</p>
               </div>
             </div>
 
